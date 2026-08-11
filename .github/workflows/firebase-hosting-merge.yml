@@ -14,7 +14,7 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '10.0.0'   # Ajuste para a versão que você usa (ex.: 7.0.x, 9.0.x)
+          dotnet-version: '10.0.x'   # Ajuste para a versão que você usa (ex.: 7.0.x, 9.0.x)
 
       - name: Publish Blazor WebAssembly
         run: |
