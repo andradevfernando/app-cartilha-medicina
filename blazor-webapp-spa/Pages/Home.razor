@@ -1,7 +1,188 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Cartilha de Medicina</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="home-page">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="hero-badge-icon">⚕️</span>
+                <span>Projeto Acadêmico</span>
+            </div>
+            <h1 class="hero-title">Cartilha de <span class="text-gradient">Medicina</span></h1>
+            <p class="hero-subtitle">
+                Uma iniciativa dedicada a compartilhar conhecimento médico de forma clara, acessível e organizada.
+            </p>
+            <div class="hero-actions">
+                <a href="#sobre" class="btn btn-primary btn-lg hero-btn">
+                    Conheça o Projeto
+                </a>
+                <a href="#documentos" class="btn btn-outline-light btn-lg hero-btn">
+                    Ver Documentos
+                </a>
+            </div>
+        </div>
+        <div class="hero-decoration" aria-hidden="true">
+            <div class="hero-circle hero-circle-1"></div>
+            <div class="hero-circle hero-circle-2"></div>
+            <div class="hero-circle hero-circle-3"></div>
+            <div class="hero-cross">✚</div>
+        </div>
+    </section>
 
-Welcome to your new app.
+    <!-- Sobre Section -->
+    <section id="sobre" class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre</span>
+                <h2 class="section-title">Sobre o Projeto</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">📖</div>
+                    <h3>O que é</h3>
+                    <p>
+                        A Cartilha de Medicina é um projeto que reúne informações essenciais sobre temas médicos,
+                        organizadas de forma didática para estudantes, profissionais e interessados na área da saúde.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>Missão</h3>
+                    <p>
+                        Democratizar o acesso ao conhecimento médico, oferecendo materiais educativos de qualidade
+                        que possam auxiliar no aprendizado e na prática clínica diária.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">👥</div>
+                    <h3>Público</h3>
+                    <p>
+                        Estudantes de medicina, residentes, profissionais de saúde e qualquer pessoa interessada
+                        em compreender melhor os temas abordados na cartilha.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objetivo Section -->
+    <section id="objetivo" class="content-section objective-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag section-tag-light">Objetivo</span>
+                <h2 class="section-title section-title-light">Objetivo do Projeto</h2>
+                <div class="section-divider section-divider-light"></div>
+            </div>
+            <div class="objective-content">
+                <div class="objective-text">
+                    <p>
+                        O principal objetivo deste projeto é <strong>criar uma cartilha médica digital</strong> que sirva
+                        como material de referência rápida e confiável para estudantes e profissionais da área de saúde.
+                    </p>
+                    <ul class="objective-list">
+                        <li>
+                            <span class="objective-check">✓</span>
+                            <span><strong>Facilitar o aprendizado</strong> com conteúdos organizados e objetivos.</span>
+                        </li>
+                        <li>
+                            <span class="objective-check">✓</span>
+                            <span><strong>Oferecer materiais de qualidade</strong> com informações baseadas em evidências.</span>
+                        </li>
+                        <li>
+                            <span class="objective-check">✓</span>
+                            <span><strong>Disponibilizar acesso gratuito</strong> a todos os interessados na área da saúde.</span>
+                        </li>
+                        <li>
+                            <span class="objective-check">✓</span>
+                            <span><strong>Atualizar constantemente</strong> o conteúdo com as melhores práticas médicas.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="objective-highlight">
+                    <div class="highlight-card">
+                        <div class="highlight-number">2</div>
+                        <div class="highlight-label">Documentos<br />Disponíveis</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-number">100%</div>
+                        <div class="highlight-label">Acesso<br />Gratuito</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-number">∞</div>
+                        <div class="highlight-label">Conhecimento<br />Compartilhado</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentos Section -->
+    <section id="documentos" class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Documentos</span>
+                <h2 class="section-title">Materiais Disponíveis</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Visualize os documentos diretamente na página ou faça o download para leitura offline.
+                </p>
+            </div>
+
+            <div class="documents-grid">
+                <!-- Documento 1 -->
+                <div class="document-card">
+                    <div class="document-header">
+                        <div class="document-icon">📄</div>
+                        <div class="document-info">
+                            <h3>Cartilha de Medicina</h3>
+                            <span class="document-meta">PDF • Documento Principal</span>
+                        </div>
+                    </div>
+                    <div class="document-preview">
+                        <iframe src="pdfs/cartilha.pdf" title="Visualização da Cartilha de Medicina" loading="lazy"></iframe>
+                    </div>
+                    <div class="document-actions">
+                        <a href="pdfs/cartilha.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+                            🔍 Visualizar
+                        </a>
+                        <a href="pdfs/cartilha.pdf" download="cartilha.pdf" class="btn btn-primary btn-sm">
+                            ⬇️ Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Documento 2 -->
+                <div class="document-card">
+                    <div class="document-header">
+                        <div class="document-icon">📘</div>
+                        <div class="document-info">
+                            <h3>Geo Helmintíases</h3>
+                            <span class="document-meta">PDF • Material Complementar</span>
+                        </div>
+                    </div>
+                    <div class="document-preview">
+                        <iframe src="pdfs/geo-helmintiases.pdf" title="Visualização do Guia do Projeto" loading="lazy"></iframe>
+                    </div>
+                    <div class="document-actions">
+                        <a href="pdfs/geo-helmintiases.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+                            🔍 Visualizar
+                        </a>
+                        <a href="pdfs/geo-helmintiases.pdf" download="geo-helmintiases.pdf" class="btn btn-primary btn-sm">
+                            ⬇️ Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="home-footer">
+        <div class="container">
+            <p>© @DateTime.Now.Year - Cartilha de Medicina. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</div>

@@ -1,4 +1,3 @@
 <Solution>
   <Project Path="blazor-webapp-spa/blazor-webapp-spa.csproj" Id="2581e065-d833-4115-9f61-e4a3414c4b55" />
-  <Project Path="blazor-webapp/blazor-webapp.csproj" />
 </Solution>

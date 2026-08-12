@@ -1,0 +1,52 @@
+Usando as configurações de inicialização de blazor-webapp-spa\Properties\launchSettings.json...
+Compilando...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5135
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Ronaldo\Documents\Workspace\app-cartilha-medicina\blazor-webapp-spa
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.ArgumentOutOfRangeException:  (Parameter 'count')
+      Actual value was 18922.
+         at Microsoft.AspNetCore.Http.SendFileFallback.SendFileAsync(Stream destination, String filePath, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, String fileName, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker.SendAsync(StaticAssetInvocationContext context)
+         at Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler.<>c__DisplayClass3_0.<<AttachRuntimePatching>b__0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Components.WebAssembly.DevServer.Server.Startup.<>c__DisplayClass5_0.<<Configure>b__0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.ArgumentOutOfRangeException:  (Parameter 'count')
+      Actual value was 18922.
+         at Microsoft.AspNetCore.Http.SendFileFallback.SendFileAsync(Stream destination, String filePath, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, String fileName, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker.SendAsync(StaticAssetInvocationContext context)
+         at Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler.<>c__DisplayClass3_0.<<AttachRuntimePatching>b__0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Components.WebAssembly.DevServer.Server.Startup.<>c__DisplayClass5_0.<<Configure>b__0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.ArgumentOutOfRangeException:  (Parameter 'count')
+      Actual value was 18922.
+         at Microsoft.AspNetCore.Http.SendFileFallback.SendFileAsync(Stream destination, String filePath, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, String fileName, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker.SendAsync(StaticAssetInvocationContext context)
+         at Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler.<>c__DisplayClass3_0.<<AttachRuntimePatching>b__0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Components.WebAssembly.DevServer.Server.Startup.<>c__DisplayClass5_0.<<Configure>b__0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
