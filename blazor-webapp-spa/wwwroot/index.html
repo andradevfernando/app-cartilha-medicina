@@ -1,38 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Cartilha de Medicina - Projeto acadêmico com materiais educativos sobre medicina." />
-    <title>Cartilha de Medicina</title>
-    <base href="/" />
-    <link rel="preload" id="webassembly" />
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css?v=2026.08.13.2" />
-    <link rel="icon" type="image/png" href="favicon2.png" />
-    <link href="blazor-webapp-spa.styles.css?v=2026.08.13.2" rel="stylesheet" />
-    <script type="importmap"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Materiais educativos sobre geo-helmintíases, prevenção e saúde.">
+  <title>Geo-Helmintíases</title>
+  <link rel="icon" type="image/png" href="favicon2.png">
+  <style>
+    :root{color-scheme:light;--ink:#15346d;--green:#277743;--paper:#fffdf6;--bg:#e8f5ed}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:#14254e}.wrap{width:min(1160px,calc(100% - 36px));margin:auto}.hero{padding:26px 0 74px;background:radial-gradient(circle at 12% 15%,#d8f4d9 0 10%,transparent 31%),linear-gradient(125deg,#a6e5d5,#63bce7 55%,#98d6ee)}header{display:flex;align-items:center;gap:25px}.logo,.placeholder{display:grid;place-content:center;text-align:center;border:2px dashed #39718d;color:#285579;background:#ffffff66}.logo{width:100px;aspect-ratio:1;border-radius:50%;font-weight:bold;text-decoration:none}.nav{flex:1;display:flex;justify-content:space-around;background:#ffffffe0;border-radius:999px;padding:17px}.nav a{color:var(--ink);font-weight:bold;text-decoration:none}.hero-content{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;margin-top:58px}.eyebrow{letter-spacing:.1em;font-size:.8rem;font-weight:bold;color:var(--green)}h1{font-size:clamp(2.6rem,5vw,4.8rem);line-height:1;margin:.5rem 0;color:var(--ink)}.hero p{font-size:1.12rem;line-height:1.6}.button,.material a{display:inline-block;background:#203d80;color:#fff;text-decoration:none;border-radius:999px;padding:14px 22px;font-weight:bold}.hero-art{height:360px;border-radius:38px;font-weight:bold}.info{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;background:var(--paper);border-radius:26px;padding:22px;margin-top:-34px;box-shadow:0 12px 30px #28557922}.info article{padding:8px 16px;border-right:1px dashed #9bad9d;font-size:.9rem;line-height:1.45}.info article:last-child{border:0}.panel{background:#fffdf6e8;border-radius:28px;padding:30px;margin-top:28px}h2{text-align:center;color:var(--green);font-size:clamp(1.65rem,3vw,2.3rem);margin:0 0 25px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.art{height:155px;border-radius:23px;font-size:.8rem;font-weight:bold}.card p{font-size:.9rem;line-height:1.5}.materials{grid-template-columns:repeat(6,1fr)}.material{min-height:170px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:17px;padding:12px}.material:nth-child(1){background:#dcefc3}.material:nth-child(2){background:#e4d4ed}.material:nth-child(3){background:#d5e4f2}.material:nth-child(4){background:#f8e7ae}.material:nth-child(5){background:#f5d4d9}.material:nth-child(6){background:#cfebc7}.folder{font-size:3rem}.material h3{font-size:.9rem}.material a{background:#278547;padding:8px 14px;font-size:.85rem}footer{margin-top:42px;background:linear-gradient(110deg,#173a70,#1d4d85);color:#fff;padding:38px 0 0}.footer{display:grid;grid-template-columns:1fr 1fr;gap:36px;padding-bottom:30px}.footer h2{text-align:left;color:#d8eb90;font-size:1.35rem}.footer p{line-height:1.55}.bar{background:var(--paper);color:#1f4773;padding:20px;text-align:center;font-weight:bold;border-radius:26px 26px 0 0}@media(max-width:800px){.nav{padding:13px}.nav a{font-size:.78rem}.hero-content{grid-template-columns:1fr}.hero-art{height:240px}.info,.grid{grid-template-columns:repeat(2,1fr)}.info article:nth-child(2){border:0}.materials{grid-template-columns:repeat(3,1fr)}}@media(max-width:520px){.wrap{width:min(100% - 24px,1160px)}header{gap:10px}.logo{width:55px;font-size:.7rem}.nav{gap:7px;overflow:auto;justify-content:flex-start}.nav a{white-space:nowrap}.info,.grid,.materials,.footer{grid-template-columns:1fr}.info{margin-top:-20px}.info article{border:0;border-bottom:1px dashed #9bad9d}.info article:last-child{border:0}.card{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:center}.art{height:110px}.card p{margin:0}.hero{padding-bottom:50px}}
+  </style>
 </head>
-
 <body>
-    <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
-    </div>
-
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="." class="reload">Reload</a>
-        <span class="dismiss">🗙</span>
-    </div>
-    <script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
+  <section id="inicio" class="hero"><div class="wrap"><header><a class="logo" href="#inicio">LOGO<br><small>imagem</small></a><nav class="nav"><a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#materiais">Materiais</a><a href="#atuacao">Atuação</a><a href="#contato">Contato</a></nav></header><div class="hero-content"><div><span class="eyebrow">EDUCAÇÃO EM SAÚDE</span><h1>Conhecimento que cuida e transforma.</h1><p>Informação acessível sobre geo-helmintíases, prevenção e saúde para toda a comunidade.</p><a class="button" href="#sobre">Conheça nosso projeto</a></div><div class="placeholder hero-art">ILUSTRAÇÃO PRINCIPAL<br><small>Envie a imagem para inserir aqui</small></div></div></div></section>
+  <main class="wrap"><section id="sobre" class="info"><article>👩🏽‍⚕️ Equipe composta por <strong>mulheres acadêmicas de Medicina e Serviço Social - UFMT</strong></article><article>🎓 Vinculadas ao <strong>Grupo de Pesquisa PINEDUTS</strong></article><article>🤝 Integramos <strong>ciência, educação e compromisso social</strong></article><article>🎯 Aproximamos <strong>universidade e comunidade</strong></article></section><section id="atuacao" class="panel"><h2>Nossa atuação</h2><div class="grid"><article class="card"><div class="placeholder art">IMAGEM EDUCAÇÃO</div><p>Alcançamos mais de <strong>200 crianças</strong> com ações de educação em saúde sobre parasitoses intestinais.</p></article><article class="card"><div class="placeholder art">IMAGEM VISITAS</div><p>Realizamos visitas domiciliares para conhecer a realidade das famílias e identificar vulnerabilidades.</p></article><article class="card"><div class="placeholder art">IMAGEM PESQUISA</div><p>Incentivamos o exame parasitológico e orientamos sobre tratamento e prevenção.</p></article><article class="card"><div class="placeholder art">IMAGEM CUIDADO</div><p>Aproximamos pesquisa, educação e cuidado em ações de saúde.</p></article></div></section><section id="materiais" class="panel"><h2>Materiais educativos</h2><div class="grid materials"><article class="material"><span class="folder">▰</span><h3>Cartilha de Medicina</h3><a href="pdfs/cartilha.pdf" download>Baixar</a></article><article class="material"><span class="folder">▰</span><h3>Geo-Helmintíases</h3><a href="pdfs/geo-helmintiases.pdf" download>Baixar</a></article><article class="material"><span class="folder">▰</span><h3>Folder educativo</h3><small>Em breve</small></article><article class="material"><span class="folder">▰</span><h3>Folder prevenção</h3><small>Em breve</small></article><article class="material"><span class="folder">▰</span><h3>Folder cuidados</h3><small>Em breve</small></article><article class="material"><span class="folder">▤</span><h3>Cartilha Educativa</h3><small>Em breve</small></article></div></section></main>
+  <footer id="contato"><div class="wrap footer"><div><h2>Nosso compromisso</h2><p>Educação em saúde que transforma realidades, promove autonomia, previne doenças e melhora a qualidade de vida.</p></div><div><h2>Sobre este site</h2><p>Materiais educativos e informações confiáveis sobre prevenção, transmissão e tratamento.</p></div></div><div class="wrap bar">LOGO UFMT &nbsp; • &nbsp; LOGO PINEDUTS &nbsp; • &nbsp; @geohelmintiases</div></footer>
 </body>
-
 </html>
