@@ -1,181 +1,91 @@
-﻿@page "/"
+@page "/"
 
-<PageTitle>Cartilha de Medicina</PageTitle>
+<PageTitle>Geo-Helmintíases</PageTitle>
 
-<div class="home-page">
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-content">
-            <div class="hero-badge">
-                <span class="hero-badge-icon">⚕️</span>
-                <span>Projeto Acadêmico</span>
+<div class="project-page">
+    <section id="inicio" class="hero">
+        <header class="site-header">
+            <a class="brand-placeholder" href="#inicio" aria-label="Início">
+                <span>LOGO</span>
+                <small>imagem</small>
+            </a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a href="#inicio">⌂ <span>Início</span></a>
+                <a href="#sobre">▤ <span>Sobre</span></a>
+                <a href="#materiais">▱ <span>Materiais</span></a>
+                <a href="#atuacao">♡ <span>Atuação</span></a>
+                <a href="#contato">✉ <span>Contato</span></a>
+            </nav>
+            <div class="social-links" aria-label="Redes sociais">
+                <a href="#contato" aria-label="Instagram">◎</a>
+                <a href="#contato" aria-label="Pineduts">✣</a>
             </div>
-            <h1 class="hero-title">Cartilha de <span class="text-gradient">Medicina</span></h1>
-            <p class="hero-subtitle">
-                Uma iniciativa dedicada a compartilhar conhecimento médico de forma clara, acessível e organizada.
-            </p>
-            <div class="hero-actions">
-                <a href="#sobre" class="btn btn-primary btn-lg hero-btn">
-                    Conheça o Projeto
-                </a>
-                <a href="#documentos" class="btn btn-outline-light btn-lg hero-btn">
-                    Ver Documentos
-                </a>
-            </div>
-        </div>
-        <div class="hero-decoration" aria-hidden="true">
-            <div class="hero-circle hero-circle-1"></div>
-            <div class="hero-circle hero-circle-2"></div>
-            <div class="hero-circle hero-circle-3"></div>
-            <div class="hero-cross">✚</div>
-        </div>
-    </section>
+        </header>
 
-    <!-- Sobre Section -->
-    <section id="sobre" class="content-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Sobre</span>
-                <h2 class="section-title">Sobre o Projeto</h2>
-                <div class="section-divider"></div>
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <span class="eyebrow">EDUCAÇÃO EM SAÚDE</span>
+                <h1>Conhecimento que cuida e transforma.</h1>
+                <p>Informação acessível sobre geo-helmintíases, prevenção e saúde para toda a comunidade.</p>
+                <a class="primary-action" href="#sobre">Conheça nosso projeto <span>›</span></a>
             </div>
-            <div class="about-grid">
-                <div class="about-card">
-                    <div class="about-icon">📖</div>
-                    <h3>O que é</h3>
-                    <p>
-                        A Cartilha de Medicina é um projeto que reúne informações essenciais sobre temas médicos,
-                        organizadas de forma didática para estudantes, profissionais e interessados na área da saúde.
-                    </p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">🎯</div>
-                    <h3>Missão</h3>
-                    <p>
-                        Democratizar o acesso ao conhecimento médico, oferecendo materiais educativos de qualidade
-                        que possam auxiliar no aprendizado e na prática clínica diária.
-                    </p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">👥</div>
-                    <h3>Público</h3>
-                    <p>
-                        Estudantes de medicina, residentes, profissionais de saúde e qualquer pessoa interessada
-                        em compreender melhor os temas abordados na cartilha.
-                    </p>
-                </div>
+            <div class="hero-image-placeholder" role="img" aria-label="Área reservada para a ilustração principal">
+                <span>ILUSTRAÇÃO PRINCIPAL</span>
+                <small>Envie a imagem para inserir aqui</small>
             </div>
         </div>
     </section>
 
-    <!-- Documentos Section -->
-    <section id="documentos" class="content-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Documentos</span>
-                <h2 class="section-title">Materiais Disponíveis</h2>
-                <div class="section-divider"></div>
-                <p class="section-description">
-                    Visualize os documentos diretamente na página ou faça o download para leitura offline.
-                </p>
+    <main>
+        <section id="sobre" class="info-strip section-wrap" aria-label="Sobre o projeto">
+            <article><span class="round-icon">👩🏽‍⚕️</span><p>Equipe composta por <strong>mulheres acadêmicas de Medicina e Serviço Social - UFMT</strong></p></article>
+            <article><span class="round-icon">🎓</span><p>Vinculadas ao <strong>Grupo de Pesquisa PINEDUTS</strong></p></article>
+            <article><span class="round-icon">🤝</span><p>Integramos <strong>ciência, educação e compromisso social</strong></p></article>
+            <article><span class="round-icon">🎯</span><p>Aproximamos <strong>universidade e comunidade</strong></p></article>
+        </section>
+
+        <section id="atuacao" class="section-wrap content-panel">
+            <h2>Nossa atuação</h2>
+            <div class="action-grid">
+                <article class="action-card">
+                    <div class="card-image-placeholder">IMAGEM<br />EDUCAÇÃO</div>
+                    <div><span class="round-icon">👥</span><p>Alcançamos mais de <strong>200 crianças</strong> com ações de educação em saúde sobre parasitoses intestinais.</p></div>
+                </article>
+                <article class="action-card">
+                    <div class="card-image-placeholder">IMAGEM<br />VISITAS</div>
+                    <div><span class="round-icon">⌂</span><p>Realizamos visitas domiciliares para conhecer a realidade das famílias e identificar vulnerabilidades.</p></div>
+                </article>
+                <article class="action-card">
+                    <div class="card-image-placeholder">IMAGEM<br />PESQUISA</div>
+                    <div><span class="round-icon">⌕</span><p>Incentivamos o exame parasitológico e orientamos sobre tratamento e prevenção.</p></div>
+                </article>
+                <article class="action-card">
+                    <div class="card-image-placeholder">IMAGEM<br />CUIDADO</div>
+                    <div><span class="round-icon">♡</span><p>Aproximamos pesquisa, educação e cuidado, transformando conhecimento em ações de saúde.</p></div>
+                </article>
             </div>
+        </section>
 
-            <div class="documents-grid">
-                <!-- Documento 1 -->
-                <div class="document-card">
-                    <div class="document-header">
-                        <div class="document-icon">📄</div>
-                        <div class="document-info">
-                            <h3>Cartilha de Medicina</h3>
-                            <span class="document-meta">PDF • Documento Principal</span>
-                        </div>
-                    </div>
-                    <div class="document-preview">
-                        @if (showCartilhaPreview)
-                        {
-                            <iframe src="pdfs/cartilha.pdf" title="Visualização da Cartilha de Medicina"></iframe>
-                        }
-                        else
-                        {
-                            <button type="button" class="document-preview-placeholder" @onclick="ShowCartilhaPreview">
-                                <span aria-hidden="true">📄</span>
-                                <span>Carregar visualização do PDF</span>
-                                <small>O arquivo só será baixado quando você solicitar a visualização.</small>
-                            </button>
-                        }
-                    </div>
-                    <div class="document-actions">
-                        @if (showCartilhaPreview)
-                        {
-                            <button type="button" class="btn btn-outline-secondary btn-sm" @onclick="HideCartilhaPreview">
-                                Ocultar visualização
-                            </button>
-                        }
-                        <a href="pdfs/cartilha.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
-                            🔍 Visualizar
-                        </a>
-                        <a href="pdfs/cartilha.pdf" download="cartilha.pdf" class="btn btn-primary btn-sm">
-                            ⬇️ Download
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Documento 2 -->
-                <div class="document-card">
-                    <div class="document-header">
-                        <div class="document-icon">📘</div>
-                        <div class="document-info">
-                            <h3>Geo Helmintíases</h3>
-                            <span class="document-meta">PDF • Material Complementar</span>
-                        </div>
-                    </div>
-                    <div class="document-preview">
-                        @if (showGeoHelmintiasesPreview)
-                        {
-                            <iframe src="pdfs/geo-helmintiases.pdf" title="Visualização do Guia do Projeto"></iframe>
-                        }
-                        else
-                        {
-                            <button type="button" class="document-preview-placeholder" @onclick="ShowGeoHelmintiasesPreview">
-                                <span aria-hidden="true">📘</span>
-                                <span>Carregar visualização do PDF</span>
-                                <small>O arquivo só será baixado quando você solicitar a visualização.</small>
-                            </button>
-                        }
-                    </div>
-                    <div class="document-actions">
-                        @if (showGeoHelmintiasesPreview)
-                        {
-                            <button type="button" class="btn btn-outline-secondary btn-sm" @onclick="HideGeoHelmintiasesPreview">
-                                Ocultar visualização
-                            </button>
-                        }
-                        <a href="pdfs/geo-helmintiases.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
-                            🔍 Visualizar
-                        </a>
-                        <a href="pdfs/geo-helmintiases.pdf" download="geo-helmintiases.pdf" class="btn btn-primary btn-sm">
-                            ⬇️ Download
-                        </a>
-                    </div>
-                </div>
+        <section id="materiais" class="section-wrap content-panel materials-panel">
+            <h2>Materiais educativos</h2>
+            <p class="section-intro">Clique para visualizar ou baixar os materiais. Os PDFs só são carregados quando você solicita.</p>
+            <div class="materials-grid">
+                <article class="material-card accent-green"><span class="folder-icon">▰</span><h3>Cartilha de Medicina</h3><a href="pdfs/cartilha.pdf" download="cartilha.pdf">⇩ Baixar</a></article>
+                <article class="material-card accent-purple"><span class="folder-icon">▰</span><h3>Geo-Helmintíases</h3><a href="pdfs/geo-helmintiases.pdf" download="geo-helmintiases.pdf">⇩ Baixar</a></article>
+                <article class="material-card accent-blue"><span class="folder-icon">▰</span><h3>Folder educativo</h3><button type="button" disabled>Em breve</button></article>
+                <article class="material-card accent-yellow"><span class="folder-icon">▰</span><h3>Folder prevenção</h3><button type="button" disabled>Em breve</button></article>
+                <article class="material-card accent-pink"><span class="folder-icon">▰</span><h3>Folder cuidados</h3><button type="button" disabled>Em breve</button></article>
+                <article class="material-card accent-darkgreen"><span class="book-icon">▤</span><h3>Cartilha Educativa</h3><button type="button" disabled>Em breve</button></article>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="home-footer">
-        <div class="container">
-            <p>© @DateTime.Now.Year - Cartilha de Medicina. Todos os direitos reservados.</p>
+    <footer id="contato" class="site-footer">
+        <div class="footer-inner section-wrap">
+            <div><h2>Nosso compromisso</h2><p>Educação em saúde que transforma realidades, promove autonomia, previne doenças e melhora a qualidade de vida.</p></div>
+            <div class="footer-image-placeholder" role="img">ILUSTRAÇÃO DA EQUIPE</div>
+            <div><h2>Sobre este site</h2><p>Aqui você encontra materiais educativos e informações confiáveis sobre prevenção, transmissão e tratamento.</p></div>
         </div>
+        <div class="footer-bar section-wrap"><span>LOGO UFMT</span><span>LOGO PINEDUTS</span><span>◎ @@geohelmintiases &nbsp; ✣ @@pinedutsufmt</span></div>
     </footer>
 </div>
-
-@code {
-    private bool showCartilhaPreview;
-    private bool showGeoHelmintiasesPreview;
-
-    private void ShowCartilhaPreview() => showCartilhaPreview = true;
-    private void HideCartilhaPreview() => showCartilhaPreview = false;
-    private void ShowGeoHelmintiasesPreview() => showGeoHelmintiasesPreview = true;
-    private void HideGeoHelmintiasesPreview() => showGeoHelmintiasesPreview = false;
-}
