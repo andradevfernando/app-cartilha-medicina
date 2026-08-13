@@ -16,6 +16,9 @@ jobs:
         with:
           dotnet-version: '10.0.x'   # Ajuste para a versão que você usa (ex.: 7.0.x, 9.0.x)
 
+      - name: Restore WebAssembly tools
+        run: dotnet workload restore ./blazor-webapp-spa/blazor-webapp-spa.csproj
+
       - name: Publish Blazor WebAssembly
         run: |
           dotnet publish ./blazor-webapp-spa -c Release -o public
