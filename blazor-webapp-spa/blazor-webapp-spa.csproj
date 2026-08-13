@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
     <InvariantGlobalization>true</InvariantGlobalization>
+    <WasmEnableSIMD>false</WasmEnableSIMD>
+    <WasmEnableExceptionHandling>false</WasmEnableExceptionHandling>
   </PropertyGroup>
 
   <ItemGroup>
