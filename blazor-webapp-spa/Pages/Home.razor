@@ -91,9 +91,26 @@
                         </div>
                     </div>
                     <div class="document-preview">
-                        <iframe src="pdfs/cartilha.pdf" title="Visualização da Cartilha de Medicina" loading="lazy"></iframe>
+                        @if (showCartilhaPreview)
+                        {
+                            <iframe src="pdfs/cartilha.pdf" title="Visualização da Cartilha de Medicina"></iframe>
+                        }
+                        else
+                        {
+                            <button type="button" class="document-preview-placeholder" @onclick="ShowCartilhaPreview">
+                                <span aria-hidden="true">📄</span>
+                                <span>Carregar visualização do PDF</span>
+                                <small>O arquivo só será baixado quando você solicitar a visualização.</small>
+                            </button>
+                        }
                     </div>
                     <div class="document-actions">
+                        @if (showCartilhaPreview)
+                        {
+                            <button type="button" class="btn btn-outline-secondary btn-sm" @onclick="HideCartilhaPreview">
+                                Ocultar visualização
+                            </button>
+                        }
                         <a href="pdfs/cartilha.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
                             🔍 Visualizar
                         </a>
@@ -113,9 +130,26 @@
                         </div>
                     </div>
                     <div class="document-preview">
-                        <iframe src="pdfs/geo-helmintiases.pdf" title="Visualização do Guia do Projeto" loading="lazy"></iframe>
+                        @if (showGeoHelmintiasesPreview)
+                        {
+                            <iframe src="pdfs/geo-helmintiases.pdf" title="Visualização do Guia do Projeto"></iframe>
+                        }
+                        else
+                        {
+                            <button type="button" class="document-preview-placeholder" @onclick="ShowGeoHelmintiasesPreview">
+                                <span aria-hidden="true">📘</span>
+                                <span>Carregar visualização do PDF</span>
+                                <small>O arquivo só será baixado quando você solicitar a visualização.</small>
+                            </button>
+                        }
                     </div>
                     <div class="document-actions">
+                        @if (showGeoHelmintiasesPreview)
+                        {
+                            <button type="button" class="btn btn-outline-secondary btn-sm" @onclick="HideGeoHelmintiasesPreview">
+                                Ocultar visualização
+                            </button>
+                        }
                         <a href="pdfs/geo-helmintiases.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
                             🔍 Visualizar
                         </a>
@@ -135,3 +169,13 @@
         </div>
     </footer>
 </div>
+
+@code {
+    private bool showCartilhaPreview;
+    private bool showGeoHelmintiasesPreview;
+
+    private void ShowCartilhaPreview() => showCartilhaPreview = true;
+    private void HideCartilhaPreview() => showCartilhaPreview = false;
+    private void ShowGeoHelmintiasesPreview() => showGeoHelmintiasesPreview = true;
+    private void HideGeoHelmintiasesPreview() => showGeoHelmintiasesPreview = false;
+}
