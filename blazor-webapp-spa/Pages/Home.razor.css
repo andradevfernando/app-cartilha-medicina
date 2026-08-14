@@ -13,7 +13,7 @@
 .social-links a { width: 53px; height: 53px; display: grid; place-items: center; color: white; text-decoration: none; transition: transform .18s ease; }
 .social-links a:hover { transform: translateY(-2px); }
 .social-links svg { width: 31px; height: 31px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-.instagram-link { border-radius: 50%; background: radial-gradient(circle at 31% 100%, #ffd667 0 12%, #f94a63 36%, #b13a9a 63%, #5c47b7 100%); }
+.instagram-link { border-radius: 18px; background: linear-gradient(135deg, #f9e4dd, #eee1f3 52%, #dcebf5); border: 2px solid #e5c7d8; box-shadow: 0 4px 10px rgba(90,58,103,.12); }.instagram-link svg { fill: none; stroke-width: 3.1; stroke-linecap: round; stroke-linejoin: round; }.social-links a.instagram-link:hover { transform: translateY(-2px) scale(1.04); background: linear-gradient(135deg, #f7d9d5, #e8d8ef 52%, #d4e6f2); }
 .pineduts-link { color: #23834e !important; }
 .pineduts-link svg { width: 49px; height: 49px; stroke-width: 1.45; }
 .hero-inner { width: min(1100px, calc(100% - 48px)); margin: 55px auto 0; display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 30px; }
