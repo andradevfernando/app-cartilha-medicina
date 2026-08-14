@@ -6,8 +6,7 @@
     <section id="inicio" class="hero">
         <header class="site-header">
             <a class="brand-placeholder" href="#inicio" aria-label="Início">
-                <span>LOGO</span>
-                <small>imagem</small>
+                <img src="images/logotipos.png" alt="Geo-Helmintíases" />
             </a>
             <nav class="site-nav" aria-label="Navegação principal">
                 <a href="#inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" /></svg><span>Início</span></a>
@@ -45,8 +44,21 @@
             <article><span class="round-icon">🎯</span><p>Aproximamos <strong>universidade e comunidade</strong></p></article>
         </section>
 
+        <section class="section-wrap content-panel about-panel" aria-labelledby="quem-somos">
+            <h2 id="quem-somos">Quem Somos</h2>
+            <div class="rich-copy">
+                <p>Somos uma equipe composta exclusivamente por mulheres, acadêmicas dos cursos de Medicina e Serviço Social da Universidade Federal de Mato Grosso (UFMT) – Campus Cuiabá, vinculadas ao Grupo de Pesquisa em Inovação, Educação e Tecnologias em Saúde (PINEDUTS).</p>
+                <p>Nossa atuação integra conhecimento científico, compromisso social e extensão universitária, com o propósito de aproximar a universidade da comunidade e contribuir para a transformação da realidade social. Desenvolvemos ações voltadas à educação e à promoção da saúde, aliadas à produção de conhecimento científico, por meio de uma abordagem lúdica, interdisciplinar e comprometida com as necessidades da população.</p>
+            </div>
+        </section>
+
         <section id="atuacao" class="section-wrap content-panel">
-            <h2>Nossa atuação</h2>
+            <h2>Nossa Atuação</h2>
+            <div class="rich-copy action-intro">
+                <p>Ao longo de um ano de desenvolvimento do projeto, nossa equipe alcançou mais de 200 crianças por meio da promoção de ações de educação em saúde abordando a temática das parasitoses intestinais, com ênfase nas geo-helmintíases.</p>
+                <p>Também realizamos visitas domiciliares para conhecer as condições socioeconômicas, ambientais e de saúde de algumas famílias vinculadas ao nosso projeto de pesquisa, permitindo identificar fatores de vulnerabilidade relacionados à ocorrência dessas patologias. Paralelamente, incentivamos a realização do exame parasitológico de fezes e, diante de resultados positivos, realizamos o encaminhamento das crianças aos serviços de saúde e orientamos suas famílias quanto ao tratamento e às medidas de prevenção.</p>
+                <p>Mais do que disseminar informações, buscamos aproximar pesquisa, educação e cuidado, transformando o conhecimento produzido em ações concretas de prevenção e promoção da saúde.</p>
+            </div>
             <div class="action-grid">
                 <article class="action-card">
                     <div class="card-image-placeholder">IMAGEM<br />EDUCAÇÃO</div>
@@ -68,31 +80,32 @@
         </section>
 
         <section id="materiais" class="section-wrap content-panel materials-panel">
-            <h2>Materiais educativos</h2>
+            <h2>Materiais Educativos</h2>
             <p class="section-intro">Clique para visualizar ou baixar os materiais. Os PDFs só são carregados quando você solicita.</p>
             <div class="materials-grid">
-                <article class="material-card accent-green"><span class="folder-icon">▰</span><h3>Cartilha de Medicina</h3><a class="download-link" href="pdfs/cartilha.pdf" download="cartilha.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
-                <article class="material-card accent-purple"><span class="folder-icon">▰</span><h3>Geo-Helmintíases</h3><a class="download-link" href="pdfs/geo-helmintiases.pdf" download="geo-helmintiases.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
-                <article class="material-card accent-blue"><span class="folder-icon">▰</span><h3>Folder educativo</h3><button type="button" disabled>Em breve</button></article>
-                <article class="material-card accent-yellow"><span class="folder-icon">▰</span><h3>Folder prevenção</h3><button type="button" disabled>Em breve</button></article>
-                <article class="material-card accent-pink"><span class="folder-icon">▰</span><h3>Folder cuidados</h3><button type="button" disabled>Em breve</button></article>
-                <article class="material-card accent-darkgreen"><span class="book-icon">▤</span><h3>Cartilha Educativa</h3><button type="button" disabled>Em breve</button></article>
+                <article class="material-card accent-green"><div class="cartilha-collage" role="img" aria-label="Personagens das cartilhas educativas"><img src="images/materials/amarelo.png" alt="" /><img src="images/materials/ascaridiase.png" alt="" /><img src="images/materials/estrongiloidiases.png" alt="" /><img src="images/materials/oxiuriase.png" alt="" /><img src="images/materials/tenia.png" alt="" /><img src="images/materials/tricuriase.png" alt="" /></div><h3>Cartilha Educativa</h3><a class="download-link" href="pdfs/cartilha.pdf" download="cartilha.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-yellow"><img src="images/materials/amarelo.png" alt="Ilustração sobre ancilostomíase" /><h3>Ancilostomíase</h3><a class="download-link" href="pdfs/AMARELAO.pdf" download="AMARELAO.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-purple"><img src="images/materials/ascaridiase.png" alt="Ilustração sobre ascaridíase" /><h3>Ascaridíase</h3><a class="download-link" href="pdfs/ASCARIDIASE.pdf" download="ASCARIDIASE.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-blue"><img src="images/materials/estrongiloidiases.png" alt="Ilustração sobre estrongiloidíase" /><h3>Estrongiloidíase</h3><a class="download-link" href="pdfs/ESTRONGIL..pdf" download="ESTRONGIL..pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-pink"><img src="images/materials/oxiuriase.png" alt="Ilustração sobre oxiuríase" /><h3>Oxiuríase</h3><a class="download-link" href="pdfs/OXIURIASE.pdf" download="OXIURIASE.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-darkgreen"><img src="images/materials/tenia.png" alt="Ilustração sobre teníase" /><h3>Teníase</h3><a class="download-link" href="pdfs/TENIA.pdf" download="TENIA.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-green"><img src="images/materials/tricuriase.png" alt="Ilustração sobre tricuríase" /><h3>Tricuríase</h3><a class="download-link" href="pdfs/TRICURIASE.pdf" download="TRICURIASE.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
             </div>
         </section>
     </main>
 
     <footer id="contato" class="site-footer">
         <div class="footer-inner section-wrap">
-            <div><h2>Nosso compromisso</h2><p>Educação em saúde que transforma realidades, promove autonomia, previne doenças e melhora a qualidade de vida.</p></div>
+            <div><h2>Nosso Compromisso</h2><p>Acreditamos que a educação em saúde é uma ferramenta capaz de transformar realidades. Nosso compromisso é construir conhecimento junto à comunidade, promovendo autonomia, prevenção de doenças e melhoria da qualidade de vida, fortalecendo a união entre universidade, ciência e sociedade.</p></div>
             <div class="footer-image-placeholder" role="img">ILUSTRAÇÃO DA EQUIPE</div>
-            <div><h2>Sobre este site</h2><p>Aqui você encontra materiais educativos e informações confiáveis sobre prevenção, transmissão e tratamento.</p></div>
+            <div><h2>Sobre este Site</h2><p>Este site foi criado com o objetivo de disponibilizar e ampliar o acesso aos materiais educativos produzidos no âmbito do projeto de pesquisa desenvolvido por nossa equipe.</p><p>Acreditamos que o conhecimento científico deve ultrapassar os espaços acadêmicos e alcançar a comunidade de forma acessível, clara e significativa. Nesse sentido, este espaço reúne materiais elaborados para apoiar ações de educação em saúde e disseminar informações confiáveis sobre prevenção, transmissão, manifestações clínicas, diagnóstico e tratamento dessas doenças.</p></div>
         </div>
         <div class="footer-bar section-wrap">
             <div class="partner-logos" aria-label="Instituições parceiras">
                 <img src="images/logo-ufmt.png" alt="UFMT" />
-                <img src="images/logo-pineduts.jpg" alt="PINEDUTS" />
+                <img src="images/PINEDUTS.png" alt="PINEDUTS" />
             </div>
-            <span>◎ @@geohelmintiases &nbsp; ✣ @@pinedutsufmt</span>
+            <span>◎ @@gelhelmintiases &nbsp; ✣ @@pinedutsufmt</span>
         </div>
     </footer>
     <a id="back-to-top-button" class="floating-back-to-top" href="#inicio" aria-label="Voltar ao início">↑</a>
