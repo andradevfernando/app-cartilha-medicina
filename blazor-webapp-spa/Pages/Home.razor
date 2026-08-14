@@ -6,8 +6,7 @@
     <section id="inicio" class="hero">
         <header class="site-header">
             <a class="brand-placeholder" href="#inicio" aria-label="Início">
-                <span>LOGO</span>
-                <small>imagem</small>
+                <img src="images/logotipos.png" alt="Geo-Helmintíases" />
             </a>
             <nav class="site-nav" aria-label="Navegação principal">
                 <a href="#inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" /></svg><span>Início</span></a>
@@ -46,7 +45,7 @@
         </section>
 
         <section id="atuacao" class="section-wrap content-panel">
-            <h2>Nossa atuação</h2>
+            <h2>Nossa Atuação</h2>
             <div class="action-grid">
                 <article class="action-card">
                     <div class="card-image-placeholder">IMAGEM<br />EDUCAÇÃO</div>
@@ -68,15 +67,16 @@
         </section>
 
         <section id="materiais" class="section-wrap content-panel materials-panel">
-            <h2>Materiais educativos</h2>
+            <h2>Materiais Educativos</h2>
             <p class="section-intro">Clique para visualizar ou baixar os materiais. Os PDFs só são carregados quando você solicita.</p>
             <div class="materials-grid">
-                <article class="material-card accent-green"><span class="folder-icon">▰</span><h3>Cartilha de Medicina</h3><a class="download-link" href="pdfs/cartilha.pdf" download="cartilha.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
-                <article class="material-card accent-purple"><span class="folder-icon">▰</span><h3>Geo-Helmintíases</h3><a class="download-link" href="pdfs/geo-helmintiases.pdf" download="geo-helmintiases.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
-                <article class="material-card accent-blue"><span class="folder-icon">▰</span><h3>Folder educativo</h3><button type="button" disabled>Em breve</button></article>
-                <article class="material-card accent-yellow"><span class="folder-icon">▰</span><h3>Folder prevenção</h3><button type="button" disabled>Em breve</button></article>
-                <article class="material-card accent-pink"><span class="folder-icon">▰</span><h3>Folder cuidados</h3><button type="button" disabled>Em breve</button></article>
-                <article class="material-card accent-darkgreen"><span class="book-icon">▤</span><h3>Cartilha Educativa</h3><button type="button" disabled>Em breve</button></article>
+                <article class="material-card accent-green"><div class="cartilha-collage" role="img" aria-label="Personagens das cartilhas educativas"><img src="images/materials/amarelo.png" alt="" /><img src="images/materials/ascaridiase.png" alt="" /><img src="images/materials/estrongiloidiases.png" alt="" /><img src="images/materials/oxiuriase.png" alt="" /><img src="images/materials/tenia.png" alt="" /><img src="images/materials/tricuriase.png" alt="" /></div><h3>Cartilha Educativa</h3><a class="download-link" href="pdfs/cartilha.pdf" download="cartilha.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-yellow"><img src="images/materials/amarelo.png" alt="Ilustração sobre ancilostomíase" /><h3>Ancilostomíase</h3><a class="download-link" href="pdfs/AMARELAO.pdf" download="AMARELAO.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-purple"><img src="images/materials/ascaridiase.png" alt="Ilustração sobre ascaridíase" /><h3>Ascaridíase</h3><a class="download-link" href="pdfs/ASCARIDIASE.pdf" download="ASCARIDIASE.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-blue"><img src="images/materials/estrongiloidiases.png" alt="Ilustração sobre estrongiloidíase" /><h3>Estrongiloidíase</h3><a class="download-link" href="pdfs/ESTRONGIL..pdf" download="ESTRONGIL..pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-pink"><img src="images/materials/oxiuriase.png" alt="Ilustração sobre oxiuríase" /><h3>Oxiuríase</h3><a class="download-link" href="pdfs/OXIURIASE.pdf" download="OXIURIASE.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-darkgreen"><img src="images/materials/tenia.png" alt="Ilustração sobre teníase" /><h3>Teníase</h3><a class="download-link" href="pdfs/TENIA.pdf" download="TENIA.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
+                <article class="material-card accent-green"><img src="images/materials/tricuriase.png" alt="Ilustração sobre tricuríase" /><h3>Tricuríase</h3><a class="download-link" href="pdfs/TRICURIASE.pdf" download="TRICURIASE.pdf" onclick="this.classList.add('download-starting'); this.querySelector('.download-label').textContent = 'Iniciando...'; window.setTimeout(() => { this.classList.remove('download-starting'); this.querySelector('.download-label').textContent = '⇩ Baixar'; }, 1500);"><span class="download-label">⇩ Baixar</span></a></article>
             </div>
         </section>
     </main>
@@ -90,7 +90,7 @@
         <div class="footer-bar section-wrap">
             <div class="partner-logos" aria-label="Instituições parceiras">
                 <img src="images/logo-ufmt.png" alt="UFMT" />
-                <img src="images/logo-pineduts.jpg" alt="PINEDUTS" />
+                <img src="images/PINEDUTS.png" alt="PINEDUTS" />
             </div>
             <span>◎ @@geohelmintiases &nbsp; ✣ @@pinedutsufmt</span>
         </div>
